@@ -3,9 +3,7 @@ h1 {
 }
 
 .Main {
-  position: absolute;
-  top: 50%;
-  margin-top: -500px;
+  vertical-align: middle;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
