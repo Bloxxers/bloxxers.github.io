@@ -1,9 +1,8 @@
-var Banners = [
-    "https://bloxxers.github.io/Bloxxers/Banners/banner.png"
-    , "https://bloxxers.github.io/Bloxxers/Banners/banner.png"
-    , "https://bloxxers.github.io/Bloxxers/Banners/banner.png"
-    ]
-var Banner = '';
-var BannerExample = Math.floor(Math.random() * Titles.length);
-Banner += Banners[BannerExample];
-return Banner
+var Banners = new Array();
+
+Banners[0] = "https://bloxxers.github.io/Bloxxers/Banners/banner.png";
+Banners[1] = "https://bloxxers.github.io/Bloxxers/Banners/banner.png";
+Banners[2] = "https://bloxxers.github.io/Bloxxers/Banners/banner.png";
+
+var Banner = Math.floor(Math.random()*Banners.length);
+document.write('<img src="'+Banners[Banner]+'" />');
