@@ -3,6 +3,7 @@ h1 {
 }
 
 .Main {
+  position: absolute;
   top: 50%;
   margin-top: -500px;
   font-size: 25px;
