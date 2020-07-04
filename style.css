@@ -6,6 +6,7 @@ h1 {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  vertical-align: center;
+  top: 50%;
+  margin-top: -500%
   text-decoration: none;
 }
