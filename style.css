@@ -3,7 +3,7 @@ h1 {
 }
 
 .Main {
-  margin-top: 250px;
+  top: 250px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
