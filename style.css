@@ -1,3 +1,10 @@
 h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.Main {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  overflow: hidden;
+}
