@@ -3,6 +3,12 @@ h1 {
 }
 
 .Main {
+  display: table;
+}
+
+.Main a {
+  display: table-cell;
+  vertical-align: center;
   top: 250px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
