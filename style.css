@@ -2,7 +2,13 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.Maininner {
+  display: table;
+}
+
 .Main {
+  display: table-cell;
+  vertical-align: center;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
