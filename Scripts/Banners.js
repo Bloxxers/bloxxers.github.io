@@ -9,4 +9,4 @@ function Banner() {
   document.write('<img src="'+Banners[Banner]+'" />');
 }
 
-Banner()
+return Banner()
