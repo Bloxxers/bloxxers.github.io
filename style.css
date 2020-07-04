@@ -3,8 +3,6 @@ h1 {
 }
 
 .Main {
-  display: flex;
-  align-items: center;
   top: 250px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
