@@ -4,5 +4,9 @@ Banners[0] = "https://bloxxers.github.io/Bloxxers/Banners/banner.png";
 Banners[1] = "https://bloxxers.github.io/Bloxxers/Banners/banner.png";
 Banners[2] = "https://bloxxers.github.io/Bloxxers/Banners/banner.png";
 
-var Banner = Math.floor(Math.random()*Banners.length);
-document.write('<img src="'+Banners[Banner]+'" />');
+function Banner() {
+  var Banner = Math.floor(Math.random()*Banners.length);
+  document.write('<img src="'+Banners[Banner]+'" />');
+}
+
+Banner()
