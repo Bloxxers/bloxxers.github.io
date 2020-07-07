@@ -24,6 +24,10 @@ h3 {
   border: 2.5px solid rgb(25,25,25);
 }
 
+.Banner {
+  border-radius: 5%;
+}
+
 .Social {
   color: rgb(255,255,255);
 }
