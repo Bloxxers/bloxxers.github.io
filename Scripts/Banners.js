@@ -9,7 +9,7 @@ Banners[5] = "https://bloxxers.github.io/Bloxxers/Banners/banner6.png";
 
 function Banner() {
   var Banner = Math.floor(Math.random()*Banners.length);
-  document.write('<img src="'+Banners[Banner]+'" />');
+  document.write('<img class="Banner" src="'+Banners[Banner]+'" />');
 }
 
 Banner()
