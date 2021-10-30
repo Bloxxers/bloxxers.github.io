@@ -19,7 +19,14 @@ p {
 .Header {
   height: 175px;
   background-color: rgb(50,75,200);
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.BottomHeader {
+  height: 25px;
+  background-color: rgb(40, 63, 177);
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 5px rgb(40, 63, 177);
 }
 
 .Main {
