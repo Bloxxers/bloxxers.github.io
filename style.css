@@ -16,10 +16,24 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@keyframes funny{
+  0% {transform: rotate3d(0);}
+  100% {transform: rotate3d(0, 2, 0, 360deg);}
+}
+
 .Header {
   height: 175px;
   background-color: rgb(50,75,200);
   margin-bottom: 0px;
+}
+
+.imagef {
+  -moz-animation: funny 50s infinite;
+  -webkit-animation: funny 50s infinite;
+  -o-animation: funny 50s infinite;
+  animation: funny 50s infinite;
+
+  width: 600px;
 }
 
 .BottomHeader {
